@@ -1,0 +1,211 @@
+html,body{
+	
+	margin: 0;
+	padding: 0;
+	
+	
+	line-height: 1.5em;
+}
+
+header{
+	background: red;
+	position: relative;
+	padding-top: 10%; padding-bottom: 10%;
+}
+
+
+section{background: pink; position: relative;
+	overflow: hidden;
+	padding-top: 2%; padding-bottom: 2%;
+}
+
+section:nth-child(odd){
+
+background: gray;
+}
+
+.content{
+ width: 70%;
+ margin: 0 auto;
+ position: relative;
+ display: block;
+
+}
+
+.test{
+	position: absolute;
+	top: 20px;
+	right: 50px;
+	text-decoration: none;
+	height: 50px;
+	line-height: 50px;
+	width: 100px;
+	padding: 5px;
+	background: pink;
+	text-align: center;
+}
+.info{
+
+clear: both;
+width: 250px;
+height: 100px;
+background: blue;
+}
+
+.logo{
+	height: 100px;
+	width: 100px;
+	background: blue;
+	float: left;
+
+}
+.titre{
+	width: 100px;
+	display: block;
+	float: right;
+	line-height: 100px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: 
+}
+/*desc*/
+
+.description{
+
+clear: both;
+
+}
+
+.description img{
+	float: left;
+	width: 50%;
+	height: 350px;
+	background: yellow;
+}
+.description div{
+	float: right;
+	display: block;
+	width: 40%;
+	margin-left: 10%;
+}
+
+/*fct*/
+
+.fonctionalites{
+	clear: both;
+	position: relative;
+	margin-top: 25%;
+	margin: 0;
+	padding: 0;
+	padding-top: 2%;
+}
+
+
+
+.fonctionalites li{
+	list-style: none;
+	width: 20%;
+	padding: 2.5%;
+	background: green;
+	float: left;
+}
+
+.fonctionalites li img{
+	background: orange;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin: 0 auto;
+	display: block;
+}
+
+.fonctionalites li p{
+	text-align: center;
+}
+
+.redirection {
+	clear: both;
+}
+.redirection .redirection_link{
+
+	float: left;
+	width: 40%;
+	margin-right: 10%;
+}
+
+.redirection .qr {
+	float: right;
+	width: 50%;
+	height: 350px;
+	
+	background: blue;
+}
+
+
+/*footer*/
+
+footer small{
+	 margin-left: 10px;
+     float: left;
+}
+footer
+{
+	height: 50px;
+	background: #00a8ec;
+	line-height: 50px;
+	color: white;
+}
+
+footer ul{
+
+ float: right;
+height: 50px;
+ margin: 0;
+ padding: 0;
+}
+
+footer li{
+list-style: none;
+ float: right;
+ margin-left: 10px;
+ margin-right: 10px;
+}
+
+footer li a{
+	display: block;
+	color: white;
+
+}
+
+/*media*/
+
+@media screen and (max-width: 850px) {
+  .redirection .redirection_link {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .redirection .qr{
+    float: none;
+    width: 100%;
+  }
+
+  .description img{
+
+float: none;
+    width: 100%;
+
+
+  }
+  .description div{
+float: none;
+    width: 100%;
+    margin-left: 0;
+    
+
+
+  }
+
+}
