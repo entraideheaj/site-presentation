@@ -145,10 +145,7 @@ clear: both;
 
 /*footer*/
 
-footer small{
-	 margin-left: 10px;
-     float: left;
-}
+
 footer
 {
 	height: 50px;
@@ -157,26 +154,12 @@ footer
 	color: white;
 }
 
-footer ul{
-
- float: right;
-height: 50px;
- margin: 0;
- padding: 0;
+footer small{
+	 margin-left: 10px;
+     float: left;
 }
 
-footer li{
-list-style: none;
- float: right;
- margin-left: 10px;
- margin-right: 10px;
-}
 
-footer li a{
-	display: block;
-	color: white;
-
-}
 
 /*media*/
 
@@ -203,9 +186,17 @@ float: none;
 float: none;
     width: 100%;
     margin-left: 0;
-    
-
 
   }
+
+  .fonctionalites li{
+	list-style: none;
+	width: 100%;
+	padding: 0%;
+	
+	float: none;
+}
+
+.test{display: none;
 
 }
