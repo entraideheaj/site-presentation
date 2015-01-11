@@ -146,8 +146,7 @@ section:nth-child(odd) {
     transition: all .5s;
 }
 .test:hover {
-    background: white;
-    transition: all .5s;
+    opacity: .6;
 }
 .info {
     clear: both;
@@ -258,7 +257,7 @@ section:nth-child(odd) {
     transition: all .5s;
 }
 .redirection a:hover {
-    background: black;
+    opacity: .6;
     transition: all .5s;
 }
 /*footer*/
@@ -331,8 +330,7 @@ footer a { color: white }
     .content_header { padding-top: 35% }
     .test { background: white }
     .test:hover {
-        background: black;
-        color: white;
+        opacity: .6;
     }
     .info { width: 215px }
     .titre { font-size: 2.5em }
